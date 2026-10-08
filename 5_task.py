@@ -32,9 +32,8 @@ for i in product:
 print("Average estimation:", avg_estim)
 
 
-avg = 0
 worst_avg = 10
-worst_id = ""
+worst_id = None
 for i in product:
     sum_stars = 0
     count = 0
