@@ -28,9 +28,8 @@ for i in product:
         if j["id"] == i:
             sum_stars += j["stars"]
             count += 1
-    avg_estim.append( sum_stars / count)
+    avg_estim.append(sum_stars / count)
 print("Average estimation:", avg_estim)
-
 
 
 avg = 0
@@ -60,8 +59,3 @@ print("Reviews for 1 or 2 stars:", reviews_count)
 
 
 print("Share of 1 or 2 star reviews:", reviews_count / len(reviews))
-
-
-
-
-            

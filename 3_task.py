@@ -11,7 +11,7 @@ ret_sum = 0
 for i in orders:
     if i["status"] == "returned":
         ret_sum += i["amount"]
-print("Sum of returned orders:",ret_sum)
+print("Sum of returned orders:", ret_sum)
 
 
 ret_buyer = set()
@@ -32,5 +32,5 @@ del_sum = 0
 for i in orders:
     if i["status"] == "delivered":
         del_sum += i["amount"]
-avg_bill =  del_sum / del_ord
-print("Average bill of delivered orders:", avg_bill)      
+avg_bill = del_sum / del_ord
+print("Average bill of delivered orders:", avg_bill)

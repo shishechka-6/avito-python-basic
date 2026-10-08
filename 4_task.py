@@ -31,4 +31,4 @@ ret_ord_20 = []
 for i in days:
     if i["returns"] / i["orders"] > 0.2:
         ret_ord_20.append(i["day"])
-print("Days when returned > 20 %:",ret_ord_20)
+print("Days when returned > 20 %:", ret_ord_20)
