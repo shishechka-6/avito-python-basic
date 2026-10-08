@@ -24,11 +24,11 @@ print("Max day revenue:", max_day)
 avg_revenue = []
 for i in days:
     avg_revenue.append((i["day"], i["revenue"] / i["orders"]))
-print(avg_revenue)
+print("Average revenue:", avg_revenue)
 
 
 ret_ord_20 = []
 for i in days:
     if i["returns"] / i["orders"] > 0.2:
         ret_ord_20.append(i["day"])
-print(ret_ord_20)
+print("Days when returned > 20 %:",ret_ord_20)
